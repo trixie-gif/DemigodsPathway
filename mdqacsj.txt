@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Trixie Par">
+<meta name= "keywords" cntent="HTML, CSS, JavaScript">
+<meta name="revised" content="15/09/24">
+<title style="color:#FBDBBF;" >Demigod's Pathway</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color:#FBDBBF ;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #CC7229;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header h1 {
+margin: 0;
+}
+header nav a {
+color:#FBDBBF ;
+text-decoration: none;
+margin-left: 20px;
+font-weight: bold;
+}
+.container {
+padding: 20px;
+}
+h2 {
+color: #d88437;
+font-size: 36px;
+}
+.breadcrumbs {
+font-size: 15px;
+}
+.breadcrumbs a {
+text-decoration: none;
+color: blue;
+}
+.interactive-map {
+border: 2px solid black;
+background-color: white;
+width: 50%;
+padding: 20px;
+margin-bottom: 20px;
+text-align: center;
+font-size: 24px;
+color: black;
+}
+.info-boxes {
+display: flex;
+justify-content: space-around;
+}
+.info-box {
+border: 2px solid black;
+background-color: white;
+width: 25%;
+padding: 20px;
+text-align: center;
+font-size: 18px;
+color: black;
+}
+.info-box:hover {
+background-color: black;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div>
+<h1>Demigod's Pathway</h1>
+</div>
+<div>
+<input type="text" placeholder="Search">
+</div>
+<nav>
+<a href="#">Homepage</a>
+<a href="#">Cabins</a>
+<a href="#">About</a>
+</nav>
+</header>
+
+<div class="container">
+<div class="breadcrumbs">
+<a href="#">Homepage</a> > <a href="#">Cabin Guide</a> > About
+</div>
+
+<h2>Greetings, Demigod!</h2>
+<p>
+Guide for living as a demigod. Discover the best advice for surviving in a world populated by monsters,
+improving abilities, and navigating Camp Half-Blood!
+</p>
+
+<div class="interactive-map">
+Camp-Half Blood Interactive Map
+</div>
+
+<div class="info-boxes">
+<div class="info-box">Weapons</div>
+<div class="info-box">Characters</div>
+<div class="info-box">Mythology 101</div>
+</div>
+</div>
+
+</body>
+</html>
